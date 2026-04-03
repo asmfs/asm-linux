@@ -1,7 +1,7 @@
 mkdir -p ~/xalu_global
 git init ~/xalu_global
 cd ~/xalu_global
-git remote add -f origin https://github.com/asmfs/xalu.git
+git remote add -f origin https://github.com/segfaultknives/xalu.git
 git config core.sparseCheckout true
 echo "x86_64/coreutils" >> .git/info/sparse-checkout
 git pull origin def
